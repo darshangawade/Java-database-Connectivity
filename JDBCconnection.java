@@ -65,7 +65,7 @@ public class JavaApplication {
             }
             catch(Exception e)
             {
-                 System.out.println("Failed to make connection!"+e);
+                 System.out.println("Failed to make connection: "+e);
             }
 }
   void DisplayData()
